@@ -9,5 +9,5 @@ Synthesizable Verilog implementation and testbench verification for a configurab
 
 ## Tools Used
 * **HDL:** Verilog
-* **Simulation:** QuestaSim / ModelSim
-* **Synthesis:** Xilinx Vivado
+* **Simulation:** QuestaSim
+* **Linting:** SpyGlass
