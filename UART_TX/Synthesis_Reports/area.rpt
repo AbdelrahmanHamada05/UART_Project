@@ -1,0 +1,46 @@
+ 
+****************************************
+Report : area
+Design : UART_TX
+Version: O-2018.06-SP1
+Date   : Thu Aug 13 00:25:12 2026
+****************************************
+
+Library(s) Used:
+
+    scmetro_tsmc_cl013g_rvt_ss_1p08v_125c (File: /home/ICer/UART_TX/std_cells/scmetro_tsmc_cl013g_rvt_ss_1p08v_125c.db)
+
+Number of ports:                           50
+Number of nets:                           102
+Number of cells:                           51
+Number of combinational cells:             41
+Number of sequential cells:                 7
+Number of macros/black boxes:               0
+Number of buf/inv:                          5
+Number of references:                       6
+
+Combinational area:                337.712902
+Buf/Inv area:                       17.650501
+Noncombinational area:             189.448702
+Macro/Black Box area:                0.000000
+Net Interconnect area:            6440.032288
+
+Total cell area:                   527.161604
+Total area:                       6967.193891
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  ----------
+UART_TX                            527.1616    100.0   23.5340     0.0000  0.0000  UART_TX
+fsm                                197.6856     37.5  116.4933    81.1923  0.0000  FSM_block
+par                                125.9069     23.9   98.8428    27.0641  0.0000  party_calc
+ser                                180.0351     34.2   98.8428    81.1923  0.0000  serializer
+--------------------------------  ---------  -------  --------  ---------  ------  ----------
+Total                                                 337.7129   189.4487  0.0000
+
+1
