@@ -11,3 +11,4 @@ Synthesizable Verilog implementation and testbench verification for a configurab
 * **HDL:** Verilog
 * **Simulation:** QuestaSim
 * **Linting:** SpyGlass
+* **Synthesis:** Synopsis
